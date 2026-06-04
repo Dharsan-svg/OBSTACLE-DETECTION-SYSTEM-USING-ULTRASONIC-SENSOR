@@ -19,11 +19,35 @@ The ultrasonic distance sensor (HC-SR04) is a widely used electronic component f
 
 ## Procedure: //Modify the procedure based on your circuit
 ## Procedure: 
-
 Step 1: Set Up the Tinkercad Environment
-1.	Log in to Tinkercad: Open Tinkercad in your web browser and log into your account.
-@@ -53,14 +55,38 @@ Step 7: Save Your Work
 
+Log in to Tinkercad: Open Tinkercad in your web browser and log into your account.
+
+Create a New Circuit: In the Tinkercad dashboard, click on “Circuits”, then select “Create New Circuit” to open a new workspace. Step 2: Add Components to the Circuit
+
+Arduino Uno: Drag and drop an Arduino Uno R3 board from the components panel onto the workspace.
+
+Ultrasonic Sensor: Search for the HC-SR04 Ultrasonic Distance Sensor and place it on the workspace.
+
+Wires: Use jumper wires to make electrical connections between components. Step 3: Connect the Ultrasonic Sensor to the Arduino
+
+Ultrasonic Sensor Pins: o VCC Pin: Connect to 5V pin on the Arduino. o GND Pin: Connect to GND on the Arduino. o Trig Pin: Connect to Digital Pin 3 on the Arduino. o Echo Pin: Connect to Digital Pin 2 on the Arduino.
+
+Wire Connections: o Use the color-coded jumper wires (e.g., red for VCC, black for GND, green for Trig, and blue for Echo) to make it easier to identify connections. Step 4: Write the Arduino Code
+
+Open Code Editor: Click on the “Code” button at the top right and switch to “Text” mode to write the code in C/C++. Step 5: Simulate the Circuit
+
+Start Simulation: Click the green “Start Simulation” button at the top of the workspace to run the circuit and code.
+
+Monitor Output: Click the “Serial Monitor” at the bottom to view the live distance values being measured by the sensor in centimeters. Step 6: Test and Validate
+
+Change Object Distance: Move the virtual object in front of the ultrasonic sensor and observe changes in distance readings in the serial monitor.
+
+Check Accuracy: Ensure the distance measurements vary correctly based on the object’s position. Step 7: Save Your Work
+
+Stop Simulation: Click the “Stop Simulation” button to end the test.
+
+Save Circuit: Click “Save” to store your design and code for future use or presentation.
 
 ## Code:
 
